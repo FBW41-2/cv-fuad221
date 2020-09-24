@@ -1,0 +1,121 @@
+
+$primary-color: #d1d8e0;
+$box-color: #2980b9;
+$body-width: 40%;
+
+body {
+    background-color: $primary-color;
+    text-align: center;
+    width:$body-width;
+}
+
+.l1 ,.l2 ,.l3 ,#mailbox {
+    background-color: #2980b9;}
+
+header {
+        .container{
+            width: 95%;
+            margin: 0 auto;
+            text-align: center;
+            padding-top: 50px;
+        }
+
+        .cv2-photo {
+            /* setting radius in percent and pther units */
+            border-radius: 50%;
+            width: 50%;
+            text-align: left;
+        }
+
+}
+
+.index {
+
+    col3{
+        color:whitesmoke;
+        margin: 0 auto;
+        text-align: left;
+        width: 100%;
+        padding: 2%;
+        margin: 1%;
+        border-radius: 15px;
+        font-size: 16px;
+    }
+
+    li {
+        list-style-type: none;
+    }
+}
+
+.profile {
+    .hamburg {
+        width: 100%;
+    }
+}
+
+
+
+
+m{text-align: right;}
+h1 {font-size:20px;}
+h2 {font-size:18px;text-align:left;}
+h3 {font-size:16px;text-align:left;}
+p {font-size: 15px}
+
+nav {
+    a{
+        font-size: 18px;
+        display: block;
+        margin: 5px 5px ;
+        text-align: left;
+        position: relative;
+        color: whitesmoke;
+    }
+
+    ul {
+        padding:5px;
+    }
+
+    a:after{ content: ">";
+        position: absolute;
+        right: 5px;
+        color: white;
+    }
+}
+
+#skill p {text-align:left;}
+
+.progress-bar .progress{
+height: 10px;
+background-color:#902004;
+border-radius: 5px;
+    }
+
+    .progress-bar{
+    border: 1px solid rgb(31, 9, 9);
+}
+
+
+footer {
+        text-align: left;
+        padding:15px;
+        
+        div {
+             ul {
+                 list-style-type: none;
+
+                 li{
+                    a {
+                        color: whitesmoke;
+                        text-decoration: none;
+                        font-size: 1.1em;
+                        i {
+                            margin-right : 20px;font-size:20px;
+                        }
+                    } 
+
+                 }
+                }
+        }
+}
+

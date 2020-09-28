@@ -14,7 +14,6 @@ header .container {
   text-align: center;
   padding-top: 50px;
 }
-
 header .cv2-photo {
   /* setting radius in percent and pther units */
   border-radius: 50%;
@@ -32,7 +31,6 @@ header .cv2-photo {
   border-radius: 15px;
   font-size: 16px;
 }
-
 .index li {
   list-style-type: none;
 }
@@ -71,11 +69,9 @@ nav a {
   position: relative;
   color: whitesmoke;
 }
-
 nav ul {
   padding: 5px;
 }
-
 nav a:after {
   content: ">";
   position: absolute;
@@ -101,19 +97,17 @@ footer {
   text-align: left;
   padding: 15px;
 }
-
 footer div ul {
   list-style-type: none;
 }
-
 footer div ul li a {
   color: whitesmoke;
   text-decoration: none;
   font-size: 1.1em;
 }
-
 footer div ul li a i {
   margin-right: 20px;
   font-size: 20px;
 }
+
 /*# sourceMappingURL=style.css.map */
